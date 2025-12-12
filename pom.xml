@@ -3,8 +3,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   
-  <groupId>com.counter.char</groupId>
-  <artifactId>char-counter</artifactId>
+  <groupId>com.counter.character</groupId>
+  <artifactId>character-counter</artifactId>
   <version>1.0.1</version>
   <name>Сharacter counter</name>
   <description>Сharacter counter counts the number of unique characters in a given string</description>

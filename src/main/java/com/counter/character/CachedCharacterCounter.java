@@ -7,8 +7,8 @@ public class CachedCharacterCounter extends CharacterCounterDecorator {
 
 	private final Map<String, Map<Character, Integer>> cache = new LinkedHashMap<>();
 
-	public CachedCharacterCounter(CharacterCounter charCounter) {
-		super(charCounter);
+	public CachedCharacterCounter(CharacterCounter characterCounter) {
+		super(characterCounter);
 	}
 
 	@Override

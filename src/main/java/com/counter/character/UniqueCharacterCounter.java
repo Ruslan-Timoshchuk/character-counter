@@ -6,7 +6,7 @@ import static java.util.stream.Collectors.reducing;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class UniqueCharacterCounter {
+public class UniqueCharacterCounter implements CharacterCounter {
 
     public Map<Character, Integer> countChars(String text) {
         return text.chars().mapToObj(c -> (char) c)
